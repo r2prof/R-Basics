@@ -1,0 +1,13 @@
+# How to create a Stem-and-Leaf plot in R?----
+
+# For Susan's spring pre-calculus class, scores for the 
+# first exam were as follows (smallest to largest):
+# 33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 
+# 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 
+# 94, 94, 94, 96, 100
+
+scores <- c(33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 
+            69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 
+            94, 94, 94, 96, 100)
+
+stem(scores)
