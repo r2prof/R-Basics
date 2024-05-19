@@ -4,20 +4,25 @@
 # 1. text files
 # 2. csv files
 # 3. excel files
-# 4. others
 
-# From text file
-lungs_txt <- read.delim("lungs_cap.txt")
 
-View(lungs_txt)
+# 1. From text file----
+txt_data <- read.delim("lungs_cap.txt")
 
-class(lungs_txt)
+View(txt_data)
 
-# Read data from csv file
-lungs_csv <- read.csv("lungs_cap.csv")
+# 2. Read data from csv file----
+csv_data <- read.csv("lungs_cap.csv")
 
-View(lungs_csv)
+View(csv_data)
 
-class(lungs_csv)
+# 3. Read data from an excel file----
+install.packages("readxl")
+library(readxl)
+
+# Read the Excel file
+excel_data <- read_excel("lungs_cap.xlsx")
+
+View(excel_data)
 
 

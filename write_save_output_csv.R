@@ -5,7 +5,7 @@ rain_mm <- 1:25
 
 print(rain_mm)
 
-# Save the data to a CSV file
+# Save the data to a csv file
 write.csv(rain_mm, "rain.csv", row.names = FALSE)
 
 
