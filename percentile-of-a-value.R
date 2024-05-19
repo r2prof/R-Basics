@@ -6,7 +6,7 @@
 #    33, 36, 37, 41, 42, 47, 52, 55, 57, 
 #    58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77)
 
-# Find the percentile for 25.
+# Find the percentile for 58.
 
 # Method:
 # Step 01: Order the data from smallest to largest.
@@ -26,15 +26,15 @@
 
 
 # Given data and value
-data_values <- c(18, 21, 22, 25, 26, 27, 29, 30, 31, 
-                 33, 36, 37, 41, 42, 47, 52, 55, 57, 
-                 58, 62, 64, 67, 69, 71, 72, 73, 74, 
-                 76, 77)
+data <- c(18, 21, 22, 25, 26, 27, 29, 30, 31, 
+          33, 36, 37, 41, 42, 47, 52, 55, 57, 
+          58, 62, 64, 67, 69, 71, 72, 73, 74, 
+          76, 77)
 
 value_to_find <- 58
 
 # Sort the data
-sorted_data <- sort(data_values)
+sorted_data <- sort(data)
 
 # Count the number of values less than the given value
 x <- sum(sorted_data < value_to_find)
@@ -43,9 +43,11 @@ x
 # Count the number of values equal to the given value
 y <- sum(sorted_data == value_to_find)
 y
+
 # Total number of data values
 n <- length(sorted_data)
 n
+
 # Calculate the percentile using the formula
 percentile <- (x + 0.5 * y) / n * 100
 
