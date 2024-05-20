@@ -17,7 +17,7 @@ csv_data <- read.csv("lungs_cap.csv")
 View(csv_data)
 
 # 3. Read data from an excel file----
-install.packages("readxl")
+# install.packages("readxl")
 library(readxl)
 
 # Read the Excel file
