@@ -1,30 +1,29 @@
 # How to make a box-and-whisker plot in R?----
 
-# Box plot
-data <- rnorm(100, mean = 50, sd = 10)
-boxplot(data, main = "Box Plot", ylab = "Values", 
+set.seed(123)  # For reproducibility
+
+# Generate 50 random points from a normal distribution
+data <- rnorm(50, mean = 50, sd = 10)
+
+# Introduce a few outliers
+data <- c(data, 10, 90, 95, 100, 105, 110)
+
+# Print the data to see the values
+print(data)
+
+# Create a box plot with outliers
+boxplot(data, main = "Box Plot with Outliers", 
+        ylab = "Values",
         col = "lightblue")
 
-
-# Boxplot
-boxplot(data, main = "Box Plot", horizontal = TRUE,
-        xlab = "Data Values",
-        col = "lightblue",
+# Create a box plot without displaying outliers
+boxplot(data, main = "Box Plot without Outliers", 
+        ylab = "Values", 
+        col = "lightblue", 
         outline = FALSE)
 
 
-# Add a few outliers
-data <- c(data, 80, 85, 90)  # Adding outliers
 
-# Display the data
-print(data)
-
-# Create the box plot
-boxplot(data, horizontal = TRUE,
-        main = "Box Plot",
-        xlab = "Data Values",
-        col = "lightblue",
-        outline = TRUE)  # Show outliers
 
 
 

@@ -1,15 +1,11 @@
 # Create a frequency table for a categorical variable
-gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Female")
+gender <- c("Male", "Female", "Male", "Male", 
+            "Female", "Male", "Female", "Female")
 gender_table <- table(gender)
 
 # Output
 print(gender_table)
-# gender
-# Female   Male 
-#      4      4
-# Create a frequency table for a categorical variable
-gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Female")
-gender_table <- table(gender)
+
 
 # Output
 print(gender_table)
