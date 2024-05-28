@@ -1,0 +1,40 @@
+---
+title: "Q-Template"
+author: "Raza Rafique"
+date: "`r Sys.Date()`"
+format: html
+theme: yeti
+toc: true
+toc_float: true
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| label: load packages
+#| output: false
+library(tidyverse)
+```
+
+You can add options to executable code like this
+
+```{r}
+#| label: fig-diamonds
+#| fig-cap: "A bar chart of diamond cuts"
+#| fig-alt: "more descriptive stuff here"
+#| out-width: 50%
+#| code-fold: true
+
+ggplot(diamonds, aes(x = cut))+
+    geom_bar()
+
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
