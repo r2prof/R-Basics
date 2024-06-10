@@ -1,4 +1,4 @@
-# Combination Rule---
+# Combination Rule in R---
 
 # Suppose you plan to invest equal amounts of money in 
 # each of five business ventures. If you have 20 ventures 
