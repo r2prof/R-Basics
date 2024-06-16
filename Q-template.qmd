@@ -37,4 +37,28 @@ ggplot(diamonds, aes(x = cut))+
 
 ```
 
+
+```{r}
+# Define the prices and their probabilities
+prices <- c(10, 12.5, 15)
+probabilities <- c(0.4, 0.15, 0.45)
+
+# Calculate the expected price
+expected_price <- sum(prices * probabilities)
+
+# Calculate the annual budget
+weeks_per_year <- 52
+annual_budget <- expected_price * weeks_per_year
+
+# Print the results
+expected_price
+```
+
+$$
+
+```{r}
+annual_budget
+```
+
+
 The `echo: false` option disables the printing of code (only output is displayed).

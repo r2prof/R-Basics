@@ -1,0 +1,62 @@
+---
+title: "Annual Frog Orders Budget"
+author: "Raza Rafique, Ph.D."
+format: html
+---
+
+To determine how much the lab should budget for next year's frog orders, we need to calculate the expected price of a weekly shipment and then use that to find the total annual cost.
+
+Given the prices for the weekly shipments of frogs follow the distribution below:
+
+Price: $10, $12.5, $15
+
+Let's assume the prices are equally likely. This means each price has a probability of \(\frac{1}{3}\).
+
+**Step 1: Calculate the Expected Price**
+
+The expected price \( E(X) \) is given by the weighted average of all possible prices, weighted by their probabilities:
+
+\[
+E(X) = \sum_{i=1}^{n} P_i \times X_i
+\]
+
+where \( P_i \) is the probability of price \( X_i \).
+
+Given the prices and their equal probabilities:
+\[
+P_1 = P_2 = P_3 = \frac{1}{3}
+\]
+\[
+X_1 = 10, X_2 = 12.5, X_3 = 15
+\]
+
+The expected price is:
+\[
+E(X) = \left( \frac{1}{3} \times 10 \right) + \left( \frac{1}{3} \times 12.5 \right) + \left( \frac{1}{3} \times 15 \right)
+\]
+
+\[
+E(X) = \frac{10 + 12.5 + 15}{3}
+\]
+
+\[
+E(X) = \frac{37.5}{3}
+\]
+
+\[
+E(X) = 12.5
+\]
+
+**Step 2: Calculate the Annual Budget**
+
+Since the expected price per week is $12.5 and there are 52 weeks in a year, the total annual cost is:
+
+\[
+\text{Annual Cost} = 12.5 \times 52
+\]
+
+\[
+\text{Annual Cost} = 650
+\]
+
+Therefore, the lab should budget $650 for next year's frog orders.
