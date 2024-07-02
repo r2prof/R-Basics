@@ -1,6 +1,6 @@
 # How to calculate z-score in R?------
 
-# Data for class A  
+# Data for the math class   
 data <- c(65, 65, 0, 56, 71, 86, 90, 59)
 
 mean(data)
@@ -8,7 +8,7 @@ mean(data)
 sd(data)
 
 
-# Calculate z-score for Class A using the formula
+# Calculate z-score for the math class using the formula
 z_score <- (data - mean(data)) / sd(data)
 
 head(z_score)
