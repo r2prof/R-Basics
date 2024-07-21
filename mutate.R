@@ -1,8 +1,8 @@
 # How to add a column with the mutate() function in R?----
 
 # Install required packages
-# install.packages("tidyverse")
-# install.packages("dslabs")
+install.packages("tidyverse")
+install.packages("dslabs")
 
 # Load the required packages
 library(tidyverse)

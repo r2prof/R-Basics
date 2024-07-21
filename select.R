@@ -1,4 +1,4 @@
-# How to transform variables using mutate() function in R?----
+# How to select columns with the select() function in R?----
 # Column-wise subsetting----
 
 # Install required packages
