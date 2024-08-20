@@ -6,4 +6,5 @@ scores <- c(85, 78, 92, 88, 79)
 barplot(scores, names.arg = courses, 
         xlab = "Courses", ylab = "Scores", 
         col = "skyblue", 
-        main = "Course Scores")
+        main = "Courses Scores")
+

@@ -10,6 +10,7 @@ library(gtools)
 elements <- c("A", "B", "C", "D")
 
 # Generate all permutations of length 2
-perm <- permutations(n = length(elements), r = 2, 
+perm <- permutations(n = length(elements), 
+                     r = 2, 
                      v = elements)
 print(perm)
