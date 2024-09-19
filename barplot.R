@@ -1,4 +1,5 @@
 # Sample data
+
 courses <- c("Mathematics", "Science", "History", "English", "Art")
 scores <- c(85, 78, 92, 88, 79)
 
