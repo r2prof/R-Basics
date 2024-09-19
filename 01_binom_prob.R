@@ -27,3 +27,4 @@ k <- 3
 probability <- dbinom(k, n, p)
 
 probability
+
