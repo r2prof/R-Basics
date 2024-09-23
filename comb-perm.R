@@ -17,9 +17,7 @@
 # 2. You only care about who makes it to the team, not the order.
 
 #----------------------------------------------------------------------
-
 # Permutation in R (Order maters)-----
-
 
 # Install the 'gtools' package 
 install.packages('gtools')
@@ -37,7 +35,6 @@ permutations <- permutations(n = 5, r = 3, v = players)
 print(permutations)
 
 #----------------------------------------------------------------------
-
 # Combinations in R (Order does not mater)-----
 
 # Calculate combinations of 3 players
@@ -45,6 +42,9 @@ combinations <- combn(players, 3)
 
 # Print the results for combinations
 print(combinations)
+
+#--------------------------------------------------------------------
+# Data visualization
 
 # Count the number of combinations and permutations
 num_combinations <- ncol(combinations)
