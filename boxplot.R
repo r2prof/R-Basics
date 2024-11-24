@@ -1,6 +1,6 @@
 # How to make a box-and-whisker plot in R?----
 
-set.seed(123)  # For reproducibility
+set.seed(456)  # For reproducibility
 
 # Generate 50 random points from a normal distribution
 data <- rnorm(50, mean = 50, sd = 10)
